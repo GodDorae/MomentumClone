@@ -29,7 +29,28 @@ html, body{
 }
 
 #login-form input {
-  height: 25px;
+  all: unset;
+}
+
+#login-form #name {
+  width: 300px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid white;
+  font-size: 30px;
+}
+
+#login-form #login {
+  width: 100px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid white;
+  cursor: pointer;
+  font-size: 30px;
 }
 
 .hidden {
@@ -73,10 +94,22 @@ html, body{
   top: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
+  text-align: center;
 }
 
 #todo-form {
   text-align: center;
+}
+
+#todo-form #type-todo {
+  all: unset;
+  width: 300px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid white;
+  font-size: 30px;
 }
 
 .quote {
